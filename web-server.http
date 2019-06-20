@@ -13,3 +13,16 @@ Content-Type: application/json
 }
 
 ###
+POST https://digifootball.herokuapp.com/user-service/user/credential/sign-up
+Content-Type: application/json
+
+{
+  "email": "rahmatii1366@gmail.com",
+  "password": "12345"
+}
+
+###
+###
+GET https://digifootball.herokuapp.com/user-service/user/credential/sign-up/verify?link=8930f1d7-5625-4288-a7bb-38d9465779f4&mail=rahmatii1366@gmail.com
+
+###
