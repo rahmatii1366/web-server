@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    user-service:
+      path: /user-service/**
+      url: https://gradle-digi-football.herokuapp.com/
+    google:
+      path: /google/**
+      url: https://www.google.com/

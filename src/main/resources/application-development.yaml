@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    user-service:
+      path: /user-service/**
+      url: http://localhost:8081/
+    google:
+      path: /google/**
+      url: https://www.google.com/

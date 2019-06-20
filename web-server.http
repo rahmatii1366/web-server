@@ -1,0 +1,15 @@
+GET http://localhost:8081/google/search?q=profesor_p
+
+###
+GET http://localhost:8081/varzesh3/search?q=profesor_p
+
+###
+POST http://localhost:8081/user-service/user/credential/sign-up
+Content-Type: application/json
+
+{
+  "email": "rahmatii1366@gmail.com",
+  "password": "12345"
+}
+
+###
